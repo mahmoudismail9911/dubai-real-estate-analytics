@@ -23,7 +23,7 @@ Off-plan financing applies to 60% of Unit sales and 27% of Villa sales, while La
 - Backfilled missing sub-type classification for Villa records using the property type field, verified against existing populated records to confirm accuracy.
 - Excluded 4 records (out of ~1.75M) containing implausible transaction dates consistent with unconverted Hijri calendar years — immaterial to overall analysis but noted for completeness.
 
-Full documentation of these decisions is available in [`data_model_documentation.md`](./data_model_documentation.md).
+Full documentation of these decisions is available in [`data_model_documentation.md`](./power_bi_model_documentation.md).
 
 ## Recommendations
 - **Validate `property_usage_ar`/`en` and `project_number` fields at the source** — both showed inconsistent or incomplete values during this analysis and may benefit from a data quality review upstream.
