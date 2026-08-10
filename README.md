@@ -41,7 +41,7 @@ to demonstrate practical BI skills applied to a real, messy, large-scale dataset
 | `Dim_Project/Building` | Combined master project + building dimension with a drill-down hierarchy |
 | `Calendar` | Date table (1966–2026), marked as the model's official date table for time intelligence |
 
-**Volume:** ~1.75M transaction rows, model optimised from 1GB+ of raw source CSVs down to a ~60MB deployable file.
+**Volume:** ~1.75M transaction rows, model optimised from 1GB+ of raw source CSVs down to a ~57.5MB deployable file.
 
 ### Model View
 ![Data Model](screenshots/model-view.png)
