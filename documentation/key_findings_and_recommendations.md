@@ -1,7 +1,7 @@
 # Dubai Real Estate Transactions — Key Findings & Recommendations
 
 ## Overview
-This dashboard analyzes ~1.75 million Dubai Land Department transaction records (1966–2026), covering Sales, Mortgages, and Gifts across residential, commercial, and land property types.
+This dashboard analyzes ~1.75 million Dubai Land Department transaction records (966– July 17, 2026), covering Sales, Mortgages, and Gifts across residential, commercial, and land property types.
 
 ## Key Findings
 
