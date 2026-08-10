@@ -116,9 +116,3 @@ Full data model documentation, including every modelling decision and the reason
 - Power BI Desktop
 - Power Query (M)
 - DAX
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE)
