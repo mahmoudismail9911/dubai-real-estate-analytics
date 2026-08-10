@@ -68,7 +68,7 @@ A year-by-year breakdown of the full dataset showed a clear, plausible growth cu
 This dimension deduplicates on `property_sub_type_id_clean` only (not the full 3-column combination), on the assumption that each ID maps to exactly one consistent label pairing. This is a reasonable assumption given the ID list is a fixed, known classification set — but it means if any single ID ever had two different text labels in the source (a labeling inconsistency rather than a missing value), only the first-encountered label would survive silently. No evidence of this was found, but it's a modeling assumption worth being aware of rather than a verified guarantee.
 
 ### 3.2 Columns Deliberately Excluded from `Fact_Transactions`
-Removed as non-essential for the dashboard's analytical scope: `nearest_landmark_ar/en`, `nearest_mall_ar/en`, `nearest_metro_ar/en`, `Source.Name`, `load_timestamp`, `no_of_parties_role_1/2/3`, `project_number`, and all descriptive text columns superseded by dimension foreign keys. This kept the fact table lean (~60MB full model) given the 1.75M row volume.
+Removed as non-essential for the dashboard's analytical scope: `nearest_landmark_ar/en`, `nearest_mall_ar/en`, `nearest_metro_ar/en`, `Source.Name`, `load_timestamp`, `no_of_parties_role_1/2/3`, `project_number`, and all descriptive text columns superseded by dimension foreign keys. This kept the fact table lean (~57.5MB full model) given the 1.75M row volume.
 
 ### 3.3 Foreign Keys Carried in `Fact_Transactions`
 `area_id`, `procedure_id`, `property_type_id`, `property_sub_type_id_clean`, `reg_type_id`, `trans_group_id` (native source IDs), plus generated surrogate keys `project_building_key`, `rooms_key`, `property_usage_key`.
