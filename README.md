@@ -1,7 +1,7 @@
 # Dubai Real Estate Transactions Dashboard
 
 An end-to-end Power BI project analysing ~1.75 million Dubai Land Department real
-estate transaction records (1966–2026), built on DLD's public open dataset
+estate transaction records (1966– July 17, 2026), built on DLD's public open dataset
 ([data.dubai](https://data.dubai)).
 
 Star schema data modelling, extensive Power Query data cleaning, 25+ DAX measures,
