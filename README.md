@@ -94,7 +94,7 @@ Full findings and recommendations: [`documentation/key_findings_and_recommendati
 - Backfilled missing sub-type classification for Villa records, verified against existing populated records before applying.
 - Identified and excluded a small number of records with implausible transaction dates consistent with unconverted Hijri calendar years.
 
-Full data model documentation, including every modelling decision and the reasoning behind it: [`documentation/data_model_documentation.md`](documentation/data_model_documentation.md)
+Full data model documentation, including every modelling decision and the reasoning behind it: [`documentation/data_model_documentation.md`](documentation/power_bi_model_documentation.md)
 
 ---
 
