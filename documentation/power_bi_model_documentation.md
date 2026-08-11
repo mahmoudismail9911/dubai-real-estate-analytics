@@ -91,7 +91,3 @@ Six pages, built on the model described above:
 6. **Tooltip** — custom hover card (KPIs + off-plan/existing composition), triggered from Overview's Top 5 Areas chart
 
 All pages share consistent DLD branding, a custom page-navigation control, and Year slicers sorted descending (most recent year first) as the default view.
-
----
-
-*This document is built directly from the implemented M code and project notes, and reflects the authoritative record of data quality and modeling decisions made throughout the build.*
